@@ -290,7 +290,7 @@ with tab3:
             if st.button("Generate report"):
                 with st.spinner("Generating diagnostic report..."):
                     try:
-                        gem_model = genai.GenerativeModel('gemini-1.5-flash')
+                        gem_model = genai.GenerativeModel('gemini-2.0-flash')
                         prompt = f"""
 You are assisting a water quality technician. A microscopy classifier identified
 the organism "{species}" with {confidence:.1%} confidence. Its assigned
