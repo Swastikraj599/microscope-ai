@@ -4,7 +4,7 @@ Real-time environmental microorganism classification and water-quality screening
 
 **Live app:** [microscope-ai-corsmju4n9im8j7sypfwr7.streamlit.app](https://microscope-ai-corsmju4n9im8j7sypfwr7.streamlit.app/)
 
-![Analyze tab]()
+![Analyze tab](https://github.com/Swastikraj599/microscope-ai/blob/53045091a169516e6a95a80dabd9484219914a49/Screenshot%202026-06-15%20003055.png)
 
 ---
 
