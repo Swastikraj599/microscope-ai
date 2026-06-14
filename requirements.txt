@@ -1,0 +1,9 @@
+streamlit
+onnxruntime
+numpy
+pillow
+huggingface_hub
+google-generativeai
+plotly
+duckdb
+fpdf2
