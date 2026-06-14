@@ -82,12 +82,13 @@ with st.sidebar:
     st.markdown("- Model accuracy: 93.65% (test set)")
     st.divider()
 
+    # Try secrets first, fall back to manual input
     gemini_key = st.secrets.get("GEMINI_API_KEY", "")
     if not gemini_key:
-    gemini_key = st.text_input("Gemini API key", type="password", help="Used to generate diagnostic reports")
+        gemini_key = st.text_input("Gemini API key", type="password", help="Used to generate diagnostic reports")
     if gemini_key:
-    genai.configure(api_key=gemini_key)
-    st.session_state['gemini_ready'] = True
+        genai.configure(api_key=gemini_key)
+        st.session_state['gemini_ready'] = True
 
 st.markdown("# MicroScope AI")
 st.caption("Upload a microscopy image to identify environmental microorganisms and assess water safety")
